@@ -84,9 +84,9 @@
     "prettier": "^1.14.3",
     "react": "16.8.3",
     "react-dom": "16.8.3",
-    "react-native": "^0.59.8",
     "react-native-testing-library": "^1.5.0",
     "react-native-vector-icons": "~6.0.2",
+    "react-native-web": "^0.11.7",
     "react-test-renderer": "16.8.3",
     "release-it": "^12.3.3",
     "rimraf": "^2.6.2",
@@ -94,12 +94,11 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*",
-    "react-native-vector-icons": "*"
+    "react-native-vector-icons": "*",
+    "react-native-web": "*"
   },
   "husky": {
-    "hooks": {
-    }
+    "hooks": {}
   },
   "jest": {
     "preset": "react-native",
