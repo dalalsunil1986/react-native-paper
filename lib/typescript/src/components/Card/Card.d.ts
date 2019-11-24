@@ -74,46 +74,46 @@ declare type State = {
 declare class Card extends React.Component<Props, State> {
     static Content: typeof CardContent;
     static Actions: typeof CardActions;
-    static Cover: (React.ComponentClass<Pick<import("react-native").ImageProps & {
+    static Cover: (React.ComponentClass<Pick<import("react-native-web").ImageProps & {
         index?: number | undefined;
         total?: number | undefined;
         style?: StyleProp<ViewStyle>;
         theme: Theme;
     }, "source" | "style" | "onLayout" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "onError" | "onLoad" | "onLoadEnd" | "onLoadStart" | "progressiveRenderingEnabled" | "borderRadius" | "borderTopLeftRadius" | "borderTopRightRadius" | "borderBottomLeftRadius" | "borderBottomRightRadius" | "resizeMode" | "resizeMethod" | "loadingIndicatorSource" | "defaultSource" | "blurRadius" | "capInsets" | "onProgress" | "onPartialLoad" | "fadeDuration" | "width" | "height" | "index" | "total"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native").ImageProps & {
+    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native-web").ImageProps & {
         index?: number | undefined;
         total?: number | undefined;
         style?: StyleProp<ViewStyle>;
         theme: Theme;
-    }, any> & typeof _CardCover) | (React.FunctionComponent<import("react-native").ImageProps & {
+    }, any> & typeof _CardCover) | (React.FunctionComponent<import("react-native-web").ImageProps & {
         index?: number | undefined;
         total?: number | undefined;
         style?: StyleProp<ViewStyle>;
         theme: Theme;
-    }> & typeof _CardCover), {}>) | (React.FunctionComponent<Pick<import("react-native").ImageProps & {
+    }> & typeof _CardCover), {}>) | (React.FunctionComponent<Pick<import("react-native-web").ImageProps & {
         index?: number | undefined;
         total?: number | undefined;
         style?: StyleProp<ViewStyle>;
         theme: Theme;
     }, "source" | "style" | "onLayout" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "onError" | "onLoad" | "onLoadEnd" | "onLoadStart" | "progressiveRenderingEnabled" | "borderRadius" | "borderTopLeftRadius" | "borderTopRightRadius" | "borderBottomLeftRadius" | "borderBottomRightRadius" | "resizeMode" | "resizeMethod" | "loadingIndicatorSource" | "defaultSource" | "blurRadius" | "capInsets" | "onProgress" | "onPartialLoad" | "fadeDuration" | "width" | "height" | "index" | "total"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native").ImageProps & {
+    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native-web").ImageProps & {
         index?: number | undefined;
         total?: number | undefined;
         style?: StyleProp<ViewStyle>;
         theme: Theme;
-    }, any> & typeof _CardCover) | (React.FunctionComponent<import("react-native").ImageProps & {
+    }, any> & typeof _CardCover) | (React.FunctionComponent<import("react-native-web").ImageProps & {
         index?: number | undefined;
         total?: number | undefined;
         style?: StyleProp<ViewStyle>;
         theme: Theme;
     }> & typeof _CardCover), {}>);
-    static Title: (React.ComponentClass<Pick<import("react-native").ViewProps & {
+    static Title: (React.ComponentClass<Pick<import("react-native-web").ViewProps & {
         title: React.ReactNode;
-        titleStyle?: StyleProp<import("react-native").TextStyle>;
+        titleStyle?: StyleProp<import("react-native-web").TextStyle>;
         subtitle?: React.ReactNode;
-        subtitleStyle?: StyleProp<import("react-native").TextStyle>;
+        subtitleStyle?: StyleProp<import("react-native-web").TextStyle>;
         left?: ((props: {
             size: number;
         }) => React.ReactNode) | undefined;
@@ -130,11 +130,11 @@ declare class Card extends React.Component<Props, State> {
         theme: Theme;
     }, "style" | "title" | "onLayout" | "testID" | "nativeID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "hitSlop" | "pointerEvents" | "removeClippedSubviews" | "collapsable" | "needsOffscreenAlphaCompositing" | "renderToHardwareTextureAndroid" | "accessibilityViewIsModal" | "accessibilityActions" | "onAccessibilityAction" | "shouldRasterizeIOS" | "isTVSelectable" | "hasTVPreferredFocus" | "tvParallaxProperties" | "tvParallaxShiftDistanceX" | "tvParallaxShiftDistanceY" | "tvParallaxTiltAngle" | "tvParallaxMagnification" | "onStartShouldSetResponder" | "onMoveShouldSetResponder" | "onResponderEnd" | "onResponderGrant" | "onResponderReject" | "onResponderMove" | "onResponderRelease" | "onResponderStart" | "onResponderTerminationRequest" | "onResponderTerminate" | "onStartShouldSetResponderCapture" | "onMoveShouldSetResponderCapture" | "onTouchStart" | "onTouchMove" | "onTouchEnd" | "onTouchCancel" | "onTouchEndCapture" | "left" | "right" | "titleStyle" | "index" | "total" | "subtitle" | "subtitleStyle" | "leftStyle" | "rightStyle"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native").ViewProps & {
+    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native-web").ViewProps & {
         title: React.ReactNode;
-        titleStyle?: StyleProp<import("react-native").TextStyle>;
+        titleStyle?: StyleProp<import("react-native-web").TextStyle>;
         subtitle?: React.ReactNode;
-        subtitleStyle?: StyleProp<import("react-native").TextStyle>;
+        subtitleStyle?: StyleProp<import("react-native-web").TextStyle>;
         left?: ((props: {
             size: number;
         }) => React.ReactNode) | undefined;
@@ -149,11 +149,11 @@ declare class Card extends React.Component<Props, State> {
         total?: number | undefined;
         style?: StyleProp<ViewStyle>;
         theme: Theme;
-    }, any> & typeof _CardTitle) | (React.FunctionComponent<import("react-native").ViewProps & {
+    }, any> & typeof _CardTitle) | (React.FunctionComponent<import("react-native-web").ViewProps & {
         title: React.ReactNode;
-        titleStyle?: StyleProp<import("react-native").TextStyle>;
+        titleStyle?: StyleProp<import("react-native-web").TextStyle>;
         subtitle?: React.ReactNode;
-        subtitleStyle?: StyleProp<import("react-native").TextStyle>;
+        subtitleStyle?: StyleProp<import("react-native-web").TextStyle>;
         left?: ((props: {
             size: number;
         }) => React.ReactNode) | undefined;
@@ -168,11 +168,11 @@ declare class Card extends React.Component<Props, State> {
         total?: number | undefined;
         style?: StyleProp<ViewStyle>;
         theme: Theme;
-    }> & typeof _CardTitle), {}>) | (React.FunctionComponent<Pick<import("react-native").ViewProps & {
+    }> & typeof _CardTitle), {}>) | (React.FunctionComponent<Pick<import("react-native-web").ViewProps & {
         title: React.ReactNode;
-        titleStyle?: StyleProp<import("react-native").TextStyle>;
+        titleStyle?: StyleProp<import("react-native-web").TextStyle>;
         subtitle?: React.ReactNode;
-        subtitleStyle?: StyleProp<import("react-native").TextStyle>;
+        subtitleStyle?: StyleProp<import("react-native-web").TextStyle>;
         left?: ((props: {
             size: number;
         }) => React.ReactNode) | undefined;
@@ -189,11 +189,11 @@ declare class Card extends React.Component<Props, State> {
         theme: Theme;
     }, "style" | "title" | "onLayout" | "testID" | "nativeID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "hitSlop" | "pointerEvents" | "removeClippedSubviews" | "collapsable" | "needsOffscreenAlphaCompositing" | "renderToHardwareTextureAndroid" | "accessibilityViewIsModal" | "accessibilityActions" | "onAccessibilityAction" | "shouldRasterizeIOS" | "isTVSelectable" | "hasTVPreferredFocus" | "tvParallaxProperties" | "tvParallaxShiftDistanceX" | "tvParallaxShiftDistanceY" | "tvParallaxTiltAngle" | "tvParallaxMagnification" | "onStartShouldSetResponder" | "onMoveShouldSetResponder" | "onResponderEnd" | "onResponderGrant" | "onResponderReject" | "onResponderMove" | "onResponderRelease" | "onResponderStart" | "onResponderTerminationRequest" | "onResponderTerminate" | "onStartShouldSetResponderCapture" | "onMoveShouldSetResponderCapture" | "onTouchStart" | "onTouchMove" | "onTouchEnd" | "onTouchCancel" | "onTouchEndCapture" | "left" | "right" | "titleStyle" | "index" | "total" | "subtitle" | "subtitleStyle" | "leftStyle" | "rightStyle"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native").ViewProps & {
+    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native-web").ViewProps & {
         title: React.ReactNode;
-        titleStyle?: StyleProp<import("react-native").TextStyle>;
+        titleStyle?: StyleProp<import("react-native-web").TextStyle>;
         subtitle?: React.ReactNode;
-        subtitleStyle?: StyleProp<import("react-native").TextStyle>;
+        subtitleStyle?: StyleProp<import("react-native-web").TextStyle>;
         left?: ((props: {
             size: number;
         }) => React.ReactNode) | undefined;
@@ -208,11 +208,11 @@ declare class Card extends React.Component<Props, State> {
         total?: number | undefined;
         style?: StyleProp<ViewStyle>;
         theme: Theme;
-    }, any> & typeof _CardTitle) | (React.FunctionComponent<import("react-native").ViewProps & {
+    }, any> & typeof _CardTitle) | (React.FunctionComponent<import("react-native-web").ViewProps & {
         title: React.ReactNode;
-        titleStyle?: StyleProp<import("react-native").TextStyle>;
+        titleStyle?: StyleProp<import("react-native-web").TextStyle>;
         subtitle?: React.ReactNode;
-        subtitleStyle?: StyleProp<import("react-native").TextStyle>;
+        subtitleStyle?: StyleProp<import("react-native-web").TextStyle>;
         left?: ((props: {
             size: number;
         }) => React.ReactNode) | undefined;
@@ -238,7 +238,7 @@ declare class Card extends React.Component<Props, State> {
     private handlePressOut;
     render(): JSX.Element;
 }
-declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").ViewProps & {
+declare const _default: (React.ComponentClass<Pick<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -278,7 +278,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     accessible?: boolean | undefined;
 }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "nativeID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "hitSlop" | "pointerEvents" | "removeClippedSubviews" | "collapsable" | "needsOffscreenAlphaCompositing" | "renderToHardwareTextureAndroid" | "accessibilityViewIsModal" | "accessibilityActions" | "onAccessibilityAction" | "shouldRasterizeIOS" | "isTVSelectable" | "hasTVPreferredFocus" | "tvParallaxProperties" | "tvParallaxShiftDistanceX" | "tvParallaxShiftDistanceY" | "tvParallaxTiltAngle" | "tvParallaxMagnification" | "onStartShouldSetResponder" | "onMoveShouldSetResponder" | "onResponderEnd" | "onResponderGrant" | "onResponderReject" | "onResponderMove" | "onResponderRelease" | "onResponderStart" | "onResponderTerminationRequest" | "onResponderTerminate" | "onStartShouldSetResponderCapture" | "onMoveShouldSetResponderCapture" | "onTouchStart" | "onTouchMove" | "onTouchEnd" | "onTouchCancel" | "onTouchEndCapture" | "elevation"> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<import("react-native").ViewProps & {
+}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -316,7 +316,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
      * Pass down accessible from card props to touchable
      */
     accessible?: boolean | undefined;
-}, any> & typeof Card) | (React.FunctionComponent<Pick<import("react-native").ViewProps & {
+}, any> & typeof Card) | (React.FunctionComponent<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -354,7 +354,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
      * Pass down accessible from card props to touchable
      */
     accessible?: boolean | undefined;
-}> & typeof Card), {}>) | (React.FunctionComponent<Pick<Pick<import("react-native").ViewProps & {
+}> & typeof Card), {}>) | (React.FunctionComponent<Pick<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -394,7 +394,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     accessible?: boolean | undefined;
 }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "nativeID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "hitSlop" | "pointerEvents" | "removeClippedSubviews" | "collapsable" | "needsOffscreenAlphaCompositing" | "renderToHardwareTextureAndroid" | "accessibilityViewIsModal" | "accessibilityActions" | "onAccessibilityAction" | "shouldRasterizeIOS" | "isTVSelectable" | "hasTVPreferredFocus" | "tvParallaxProperties" | "tvParallaxShiftDistanceX" | "tvParallaxShiftDistanceY" | "tvParallaxTiltAngle" | "tvParallaxMagnification" | "onStartShouldSetResponder" | "onMoveShouldSetResponder" | "onResponderEnd" | "onResponderGrant" | "onResponderReject" | "onResponderMove" | "onResponderRelease" | "onResponderStart" | "onResponderTerminationRequest" | "onResponderTerminate" | "onStartShouldSetResponderCapture" | "onMoveShouldSetResponderCapture" | "onTouchStart" | "onTouchMove" | "onTouchEnd" | "onTouchCancel" | "onTouchEndCapture" | "elevation"> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<import("react-native").ViewProps & {
+}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -432,7 +432,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
      * Pass down accessible from card props to touchable
      */
     accessible?: boolean | undefined;
-}, any> & typeof Card) | (React.FunctionComponent<Pick<import("react-native").ViewProps & {
+}, any> & typeof Card) | (React.FunctionComponent<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;

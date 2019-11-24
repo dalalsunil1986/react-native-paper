@@ -110,7 +110,7 @@ declare class Button extends React.Component<Props, State> {
     private handlePressOut;
     render(): JSX.Element;
 }
-declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").ViewProps & {
+declare const _default: (React.ComponentClass<Pick<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -151,8 +151,8 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     /**
      * Icon to display for the `Button`.
      */
-    icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-        source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+    icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+        source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
         direction: "rtl" | "ltr" | "auto";
     }> | ((props: {
         size: number;
@@ -202,7 +202,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
      * - `contained` - button with a background color and elevation shadow (high emphasis)
      */
     theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<import("react-native").ViewProps & {
+}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -243,8 +243,8 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     /**
      * Icon to display for the `Button`.
      */
-    icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-        source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+    icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+        source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
         direction: "rtl" | "ltr" | "auto";
     }> | ((props: {
         size: number;
@@ -286,7 +286,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
      * @optional
      */
     theme: Theme;
-}, any> & typeof Button) | (React.FunctionComponent<Pick<import("react-native").ViewProps & {
+}, any> & typeof Button) | (React.FunctionComponent<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -327,8 +327,8 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     /**
      * Icon to display for the `Button`.
      */
-    icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-        source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+    icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+        source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
         direction: "rtl" | "ltr" | "auto";
     }> | ((props: {
         size: number;
@@ -370,7 +370,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
      * @optional
      */
     theme: Theme;
-}> & typeof Button), {}>) | (React.FunctionComponent<Pick<Pick<import("react-native").ViewProps & {
+}> & typeof Button), {}>) | (React.FunctionComponent<Pick<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -411,8 +411,8 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     /**
      * Icon to display for the `Button`.
      */
-    icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-        source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+    icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+        source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
         direction: "rtl" | "ltr" | "auto";
     }> | ((props: {
         size: number;
@@ -462,7 +462,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
      * - `contained` - button with a background color and elevation shadow (high emphasis)
      */
     theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<import("react-native").ViewProps & {
+}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -503,8 +503,8 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     /**
      * Icon to display for the `Button`.
      */
-    icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-        source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+    icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+        source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
         direction: "rtl" | "ltr" | "auto";
     }> | ((props: {
         size: number;
@@ -546,7 +546,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
      * @optional
      */
     theme: Theme;
-}, any> & typeof Button) | (React.FunctionComponent<Pick<import("react-native").ViewProps & {
+}, any> & typeof Button) | (React.FunctionComponent<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -587,8 +587,8 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     /**
      * Icon to display for the `Button`.
      */
-    icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-        source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+    icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+        source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
         direction: "rtl" | "ltr" | "auto";
     }> | ((props: {
         size: number;

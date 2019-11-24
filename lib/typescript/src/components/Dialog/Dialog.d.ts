@@ -78,45 +78,45 @@ declare type Props = {
 declare class Dialog extends React.Component<Props> {
     static Content: typeof DialogContent;
     static Actions: typeof DialogActions;
-    static Title: (React.ComponentClass<Pick<import("react-native").TextProps & {
+    static Title: (React.ComponentClass<Pick<import("react-native-web").TextProps & {
         children: React.ReactNode;
     } & {
         children: React.ReactNode;
-        style?: StyleProp<import("react-native").TextStyle>;
+        style?: StyleProp<import("react-native-web").TextStyle>;
         theme: Theme;
     }, "style" | "children" | "allowFontScaling" | "ellipsizeMode" | "lineBreakMode" | "numberOfLines" | "onLayout" | "onPress" | "onLongPress" | "testID" | "nativeID" | "maxFontSizeMultiplier" | "adjustsFontSizeToFit" | "minimumFontScale" | "suppressHighlighting" | "selectable" | "selectionColor" | "textBreakStrategy" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native").TextProps & {
+    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native-web").TextProps & {
         children: React.ReactNode;
     } & {
         children: React.ReactNode;
-        style?: StyleProp<import("react-native").TextStyle>;
+        style?: StyleProp<import("react-native-web").TextStyle>;
         theme: Theme;
-    }, any> & typeof _DialogTitle) | (React.FunctionComponent<import("react-native").TextProps & {
+    }, any> & typeof _DialogTitle) | (React.FunctionComponent<import("react-native-web").TextProps & {
         children: React.ReactNode;
     } & {
         children: React.ReactNode;
-        style?: StyleProp<import("react-native").TextStyle>;
+        style?: StyleProp<import("react-native-web").TextStyle>;
         theme: Theme;
-    }> & typeof _DialogTitle), {}>) | (React.FunctionComponent<Pick<import("react-native").TextProps & {
+    }> & typeof _DialogTitle), {}>) | (React.FunctionComponent<Pick<import("react-native-web").TextProps & {
         children: React.ReactNode;
     } & {
         children: React.ReactNode;
-        style?: StyleProp<import("react-native").TextStyle>;
+        style?: StyleProp<import("react-native-web").TextStyle>;
         theme: Theme;
     }, "style" | "children" | "allowFontScaling" | "ellipsizeMode" | "lineBreakMode" | "numberOfLines" | "onLayout" | "onPress" | "onLongPress" | "testID" | "nativeID" | "maxFontSizeMultiplier" | "adjustsFontSizeToFit" | "minimumFontScale" | "suppressHighlighting" | "selectable" | "selectionColor" | "textBreakStrategy" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native").TextProps & {
+    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native-web").TextProps & {
         children: React.ReactNode;
     } & {
         children: React.ReactNode;
-        style?: StyleProp<import("react-native").TextStyle>;
+        style?: StyleProp<import("react-native-web").TextStyle>;
         theme: Theme;
-    }, any> & typeof _DialogTitle) | (React.FunctionComponent<import("react-native").TextProps & {
+    }, any> & typeof _DialogTitle) | (React.FunctionComponent<import("react-native-web").TextProps & {
         children: React.ReactNode;
     } & {
         children: React.ReactNode;
-        style?: StyleProp<import("react-native").TextStyle>;
+        style?: StyleProp<import("react-native-web").TextStyle>;
         theme: Theme;
     }> & typeof _DialogTitle), {}>);
     static ScrollArea: typeof DialogScrollArea;

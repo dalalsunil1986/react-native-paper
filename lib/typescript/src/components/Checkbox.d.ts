@@ -73,7 +73,7 @@ declare type Props = {
  * ```
  */
 declare class Checkbox extends React.Component<Props> {
-    static Android: (React.ComponentClass<Pick<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    static Android: (React.ComponentClass<Pick<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -83,11 +83,11 @@ declare class Checkbox extends React.Component<Props> {
         rippleColor?: string | undefined;
         underlayColor?: string | undefined;
         children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
         theme: Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -97,114 +97,7 @@ declare class Checkbox extends React.Component<Props> {
         rippleColor?: string | undefined;
         underlayColor?: string | undefined;
         children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
-        theme: Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        status: "checked" | "unchecked" | "indeterminate";
-        disabled?: boolean | undefined;
-        onPress?: (() => void) | undefined;
-        uncheckedColor?: string | undefined;
-        color?: string | undefined;
-        theme: Theme;
-    }, "style" | "color" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor" | "status" | "uncheckedColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
-        theme: Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
-        theme: Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        status: "checked" | "unchecked" | "indeterminate";
-        disabled?: boolean | undefined;
-        onPress?: (() => void) | undefined;
-        uncheckedColor?: string | undefined;
-        color?: string | undefined;
-        theme: Theme;
-    }, any> & typeof _CheckboxAndroid) | (React.FunctionComponent<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
-        theme: Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
-        theme: Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        status: "checked" | "unchecked" | "indeterminate";
-        disabled?: boolean | undefined;
-        onPress?: (() => void) | undefined;
-        uncheckedColor?: string | undefined;
-        color?: string | undefined;
-        theme: Theme;
-    }> & typeof _CheckboxAndroid), {}>) | (React.FunctionComponent<Pick<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
-        theme: Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
         theme: Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
@@ -217,7 +110,7 @@ declare class Checkbox extends React.Component<Props> {
         theme: Theme;
     }, "style" | "color" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor" | "status" | "uncheckedColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -227,11 +120,11 @@ declare class Checkbox extends React.Component<Props> {
         rippleColor?: string | undefined;
         underlayColor?: string | undefined;
         children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
         theme: Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -241,7 +134,7 @@ declare class Checkbox extends React.Component<Props> {
         rippleColor?: string | undefined;
         underlayColor?: string | undefined;
         children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
         theme: Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
@@ -252,7 +145,7 @@ declare class Checkbox extends React.Component<Props> {
         uncheckedColor?: string | undefined;
         color?: string | undefined;
         theme: Theme;
-    }, any> & typeof _CheckboxAndroid) | (React.FunctionComponent<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }, any> & typeof _CheckboxAndroid) | (React.FunctionComponent<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -262,11 +155,11 @@ declare class Checkbox extends React.Component<Props> {
         rippleColor?: string | undefined;
         underlayColor?: string | undefined;
         children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
         theme: Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -276,7 +169,114 @@ declare class Checkbox extends React.Component<Props> {
         rippleColor?: string | undefined;
         underlayColor?: string | undefined;
         children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
+        theme: Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        status: "checked" | "unchecked" | "indeterminate";
+        disabled?: boolean | undefined;
+        onPress?: (() => void) | undefined;
+        uncheckedColor?: string | undefined;
+        color?: string | undefined;
+        theme: Theme;
+    }> & typeof _CheckboxAndroid), {}>) | (React.FunctionComponent<Pick<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
+        theme: Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
+        theme: Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        status: "checked" | "unchecked" | "indeterminate";
+        disabled?: boolean | undefined;
+        onPress?: (() => void) | undefined;
+        uncheckedColor?: string | undefined;
+        color?: string | undefined;
+        theme: Theme;
+    }, "style" | "color" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor" | "status" | "uncheckedColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
+        theme: Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
+        theme: Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        status: "checked" | "unchecked" | "indeterminate";
+        disabled?: boolean | undefined;
+        onPress?: (() => void) | undefined;
+        uncheckedColor?: string | undefined;
+        color?: string | undefined;
+        theme: Theme;
+    }, any> & typeof _CheckboxAndroid) | (React.FunctionComponent<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
+        theme: Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
         theme: Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
@@ -288,7 +288,7 @@ declare class Checkbox extends React.Component<Props> {
         color?: string | undefined;
         theme: Theme;
     }> & typeof _CheckboxAndroid), {}>);
-    static IOS: (React.ComponentClass<Pick<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    static IOS: (React.ComponentClass<Pick<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -298,11 +298,11 @@ declare class Checkbox extends React.Component<Props> {
         rippleColor?: string | undefined;
         underlayColor?: string | undefined;
         children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
         theme: Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -312,111 +312,7 @@ declare class Checkbox extends React.Component<Props> {
         rippleColor?: string | undefined;
         underlayColor?: string | undefined;
         children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
-        theme: Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        status: "checked" | "unchecked" | "indeterminate";
-        disabled?: boolean | undefined;
-        onPress?: (() => void) | undefined;
-        color?: string | undefined;
-        theme: Theme;
-    }, "style" | "color" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor" | "status"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
-        theme: Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
-        theme: Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        status: "checked" | "unchecked" | "indeterminate";
-        disabled?: boolean | undefined;
-        onPress?: (() => void) | undefined;
-        color?: string | undefined;
-        theme: Theme;
-    }, any> & typeof _CheckboxIOS) | (React.FunctionComponent<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
-        theme: Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
-        theme: Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        status: "checked" | "unchecked" | "indeterminate";
-        disabled?: boolean | undefined;
-        onPress?: (() => void) | undefined;
-        color?: string | undefined;
-        theme: Theme;
-    }> & typeof _CheckboxIOS), {}>) | (React.FunctionComponent<Pick<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
-        theme: Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
         theme: Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
@@ -428,7 +324,7 @@ declare class Checkbox extends React.Component<Props> {
         theme: Theme;
     }, "style" | "color" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor" | "status"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -438,11 +334,11 @@ declare class Checkbox extends React.Component<Props> {
         rippleColor?: string | undefined;
         underlayColor?: string | undefined;
         children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
         theme: Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -452,7 +348,7 @@ declare class Checkbox extends React.Component<Props> {
         rippleColor?: string | undefined;
         underlayColor?: string | undefined;
         children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
         theme: Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
@@ -462,7 +358,7 @@ declare class Checkbox extends React.Component<Props> {
         onPress?: (() => void) | undefined;
         color?: string | undefined;
         theme: Theme;
-    }, any> & typeof _CheckboxIOS) | (React.FunctionComponent<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }, any> & typeof _CheckboxIOS) | (React.FunctionComponent<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -472,11 +368,11 @@ declare class Checkbox extends React.Component<Props> {
         rippleColor?: string | undefined;
         underlayColor?: string | undefined;
         children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
         theme: Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -486,7 +382,111 @@ declare class Checkbox extends React.Component<Props> {
         rippleColor?: string | undefined;
         underlayColor?: string | undefined;
         children: React.ReactNode;
-        style?: import("react-native").StyleProp<import("react-native").ViewStyle>;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
+        theme: Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        status: "checked" | "unchecked" | "indeterminate";
+        disabled?: boolean | undefined;
+        onPress?: (() => void) | undefined;
+        color?: string | undefined;
+        theme: Theme;
+    }> & typeof _CheckboxIOS), {}>) | (React.FunctionComponent<Pick<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
+        theme: Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
+        theme: Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        status: "checked" | "unchecked" | "indeterminate";
+        disabled?: boolean | undefined;
+        onPress?: (() => void) | undefined;
+        color?: string | undefined;
+        theme: Theme;
+    }, "style" | "color" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor" | "status"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
+        theme: Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
+        theme: Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        status: "checked" | "unchecked" | "indeterminate";
+        disabled?: boolean | undefined;
+        onPress?: (() => void) | undefined;
+        color?: string | undefined;
+        theme: Theme;
+    }, any> & typeof _CheckboxIOS) | (React.FunctionComponent<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
+        theme: Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: import("react-native-web").StyleProp<import("react-native-web").ViewStyle>;
         theme: Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;

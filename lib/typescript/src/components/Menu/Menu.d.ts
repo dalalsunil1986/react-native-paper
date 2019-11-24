@@ -103,8 +103,8 @@ declare type State = {
 declare class Menu extends React.Component<Props, State> {
     static Item: (React.ComponentClass<Pick<{
         title: React.ReactNode;
-        icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-            source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+        icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+            source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
             direction: "rtl" | "ltr" | "auto";
         }> | ((props: {
             size: number;
@@ -120,8 +120,8 @@ declare class Menu extends React.Component<Props, State> {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
     }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<{
         title: React.ReactNode;
-        icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-            source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+        icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+            source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
             direction: "rtl" | "ltr" | "auto";
         }> | ((props: {
             size: number;
@@ -135,8 +135,8 @@ declare class Menu extends React.Component<Props, State> {
         style?: StyleProp<ViewStyle>;
     }, any> & typeof _MenuItem) | (React.FunctionComponent<{
         title: React.ReactNode;
-        icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-            source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+        icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+            source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
             direction: "rtl" | "ltr" | "auto";
         }> | ((props: {
             size: number;
@@ -150,8 +150,8 @@ declare class Menu extends React.Component<Props, State> {
         style?: StyleProp<ViewStyle>;
     }> & typeof _MenuItem), {}>) | (React.FunctionComponent<Pick<{
         title: React.ReactNode;
-        icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-            source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+        icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+            source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
             direction: "rtl" | "ltr" | "auto";
         }> | ((props: {
             size: number;
@@ -167,8 +167,8 @@ declare class Menu extends React.Component<Props, State> {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
     }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<{
         title: React.ReactNode;
-        icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-            source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+        icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+            source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
             direction: "rtl" | "ltr" | "auto";
         }> | ((props: {
             size: number;
@@ -182,8 +182,8 @@ declare class Menu extends React.Component<Props, State> {
         style?: StyleProp<ViewStyle>;
     }, any> & typeof _MenuItem) | (React.FunctionComponent<{
         title: React.ReactNode;
-        icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-            source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+        icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+            source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
             direction: "rtl" | "ltr" | "auto";
         }> | ((props: {
             size: number;

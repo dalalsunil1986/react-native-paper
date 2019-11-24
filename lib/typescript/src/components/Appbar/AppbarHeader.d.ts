@@ -73,7 +73,7 @@ declare class AppbarHeader extends React.Component<Props> {
     static displayName: string;
     render(): JSX.Element;
 }
-declare const _default: (React.ComponentClass<Pick<Pick<Partial<import("react-native").ViewProps> & {
+declare const _default: (React.ComponentClass<Pick<Pick<Partial<import("react-native-web").ViewProps> & {
     dark?: boolean | undefined;
     children: React.ReactNode;
     theme: Theme;
@@ -105,7 +105,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<Partial<import("react-na
     style?: StyleProp<ViewStyle>;
 }, "style" | "children" | "onLayout" | "testID" | "nativeID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "hitSlop" | "pointerEvents" | "removeClippedSubviews" | "collapsable" | "needsOffscreenAlphaCompositing" | "renderToHardwareTextureAndroid" | "accessibilityViewIsModal" | "accessibilityActions" | "onAccessibilityAction" | "shouldRasterizeIOS" | "isTVSelectable" | "hasTVPreferredFocus" | "tvParallaxProperties" | "tvParallaxShiftDistanceX" | "tvParallaxShiftDistanceY" | "tvParallaxTiltAngle" | "tvParallaxMagnification" | "onStartShouldSetResponder" | "onMoveShouldSetResponder" | "onResponderEnd" | "onResponderGrant" | "onResponderReject" | "onResponderMove" | "onResponderRelease" | "onResponderStart" | "onResponderTerminationRequest" | "onResponderTerminate" | "onStartShouldSetResponderCapture" | "onMoveShouldSetResponderCapture" | "onTouchStart" | "onTouchMove" | "onTouchEnd" | "onTouchCancel" | "onTouchEndCapture" | "dark" | "statusBarHeight"> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<Partial<import("react-native").ViewProps> & {
+}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<Partial<import("react-native-web").ViewProps> & {
     dark?: boolean | undefined;
     children: React.ReactNode;
     theme: Theme;
@@ -135,7 +135,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<Partial<import("react-na
      */
     theme: Theme;
     style?: StyleProp<ViewStyle>;
-}, any> & typeof AppbarHeader) | (React.FunctionComponent<Pick<Partial<import("react-native").ViewProps> & {
+}, any> & typeof AppbarHeader) | (React.FunctionComponent<Pick<Partial<import("react-native-web").ViewProps> & {
     dark?: boolean | undefined;
     children: React.ReactNode;
     theme: Theme;
@@ -165,7 +165,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<Partial<import("react-na
      */
     theme: Theme;
     style?: StyleProp<ViewStyle>;
-}> & typeof AppbarHeader), {}>) | (React.FunctionComponent<Pick<Pick<Partial<import("react-native").ViewProps> & {
+}> & typeof AppbarHeader), {}>) | (React.FunctionComponent<Pick<Pick<Partial<import("react-native-web").ViewProps> & {
     dark?: boolean | undefined;
     children: React.ReactNode;
     theme: Theme;
@@ -197,7 +197,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<Partial<import("react-na
     style?: StyleProp<ViewStyle>;
 }, "style" | "children" | "onLayout" | "testID" | "nativeID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "hitSlop" | "pointerEvents" | "removeClippedSubviews" | "collapsable" | "needsOffscreenAlphaCompositing" | "renderToHardwareTextureAndroid" | "accessibilityViewIsModal" | "accessibilityActions" | "onAccessibilityAction" | "shouldRasterizeIOS" | "isTVSelectable" | "hasTVPreferredFocus" | "tvParallaxProperties" | "tvParallaxShiftDistanceX" | "tvParallaxShiftDistanceY" | "tvParallaxTiltAngle" | "tvParallaxMagnification" | "onStartShouldSetResponder" | "onMoveShouldSetResponder" | "onResponderEnd" | "onResponderGrant" | "onResponderReject" | "onResponderMove" | "onResponderRelease" | "onResponderStart" | "onResponderTerminationRequest" | "onResponderTerminate" | "onStartShouldSetResponderCapture" | "onMoveShouldSetResponderCapture" | "onTouchStart" | "onTouchMove" | "onTouchEnd" | "onTouchCancel" | "onTouchEndCapture" | "dark" | "statusBarHeight"> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<Partial<import("react-native").ViewProps> & {
+}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<Partial<import("react-native-web").ViewProps> & {
     dark?: boolean | undefined;
     children: React.ReactNode;
     theme: Theme;
@@ -227,7 +227,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<Partial<import("react-na
      */
     theme: Theme;
     style?: StyleProp<ViewStyle>;
-}, any> & typeof AppbarHeader) | (React.FunctionComponent<Pick<Partial<import("react-native").ViewProps> & {
+}, any> & typeof AppbarHeader) | (React.FunctionComponent<Pick<Partial<import("react-native-web").ViewProps> & {
     dark?: boolean | undefined;
     children: React.ReactNode;
     theme: Theme;

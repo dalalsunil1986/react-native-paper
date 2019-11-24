@@ -62,36 +62,36 @@ declare type Props = React.ComponentProps<typeof View> & {
  * ```
  */
 declare class DataTable extends React.Component<Props> {
-    static Header: (React.ComponentClass<Pick<import("react-native").ViewProps & {
+    static Header: (React.ComponentClass<Pick<import("react-native-web").ViewProps & {
         children: React.ReactNode;
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
     }, "style" | "children" | "onLayout" | "testID" | "nativeID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "hitSlop" | "pointerEvents" | "removeClippedSubviews" | "collapsable" | "needsOffscreenAlphaCompositing" | "renderToHardwareTextureAndroid" | "accessibilityViewIsModal" | "accessibilityActions" | "onAccessibilityAction" | "shouldRasterizeIOS" | "isTVSelectable" | "hasTVPreferredFocus" | "tvParallaxProperties" | "tvParallaxShiftDistanceX" | "tvParallaxShiftDistanceY" | "tvParallaxTiltAngle" | "tvParallaxMagnification" | "onStartShouldSetResponder" | "onMoveShouldSetResponder" | "onResponderEnd" | "onResponderGrant" | "onResponderReject" | "onResponderMove" | "onResponderRelease" | "onResponderStart" | "onResponderTerminationRequest" | "onResponderTerminate" | "onStartShouldSetResponderCapture" | "onMoveShouldSetResponderCapture" | "onTouchStart" | "onTouchMove" | "onTouchEnd" | "onTouchCancel" | "onTouchEndCapture"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native").ViewProps & {
+    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native-web").ViewProps & {
         children: React.ReactNode;
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
-    }, any> & typeof _DataTableHeader) | (React.FunctionComponent<import("react-native").ViewProps & {
+    }, any> & typeof _DataTableHeader) | (React.FunctionComponent<import("react-native-web").ViewProps & {
         children: React.ReactNode;
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
-    }> & typeof _DataTableHeader), {}>) | (React.FunctionComponent<Pick<import("react-native").ViewProps & {
+    }> & typeof _DataTableHeader), {}>) | (React.FunctionComponent<Pick<import("react-native-web").ViewProps & {
         children: React.ReactNode;
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
     }, "style" | "children" | "onLayout" | "testID" | "nativeID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "hitSlop" | "pointerEvents" | "removeClippedSubviews" | "collapsable" | "needsOffscreenAlphaCompositing" | "renderToHardwareTextureAndroid" | "accessibilityViewIsModal" | "accessibilityActions" | "onAccessibilityAction" | "shouldRasterizeIOS" | "isTVSelectable" | "hasTVPreferredFocus" | "tvParallaxProperties" | "tvParallaxShiftDistanceX" | "tvParallaxShiftDistanceY" | "tvParallaxTiltAngle" | "tvParallaxMagnification" | "onStartShouldSetResponder" | "onMoveShouldSetResponder" | "onResponderEnd" | "onResponderGrant" | "onResponderReject" | "onResponderMove" | "onResponderRelease" | "onResponderStart" | "onResponderTerminationRequest" | "onResponderTerminate" | "onStartShouldSetResponderCapture" | "onMoveShouldSetResponderCapture" | "onTouchStart" | "onTouchMove" | "onTouchEnd" | "onTouchCancel" | "onTouchEndCapture"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native").ViewProps & {
+    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native-web").ViewProps & {
         children: React.ReactNode;
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
-    }, any> & typeof _DataTableHeader) | (React.FunctionComponent<import("react-native").ViewProps & {
+    }, any> & typeof _DataTableHeader) | (React.FunctionComponent<import("react-native-web").ViewProps & {
         children: React.ReactNode;
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
     }> & typeof _DataTableHeader), {}>);
-    static Title: (React.ComponentClass<Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    static Title: (React.ComponentClass<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         children: React.ReactNode;
         numeric?: boolean | undefined;
         sortDirection?: "ascending" | "descending" | undefined;
@@ -101,7 +101,7 @@ declare class DataTable extends React.Component<Props> {
         theme: import("../../types").Theme;
     }, "style" | "children" | "numberOfLines" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "numeric" | "sortDirection"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native").TouchableWithoutFeedbackProps & {
+    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native-web").TouchableWithoutFeedbackProps & {
         children: React.ReactNode;
         numeric?: boolean | undefined;
         sortDirection?: "ascending" | "descending" | undefined;
@@ -109,7 +109,7 @@ declare class DataTable extends React.Component<Props> {
         onPress?: (() => void) | undefined;
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
-    }, any> & typeof _DataTableTitle) | (React.FunctionComponent<import("react-native").TouchableWithoutFeedbackProps & {
+    }, any> & typeof _DataTableTitle) | (React.FunctionComponent<import("react-native-web").TouchableWithoutFeedbackProps & {
         children: React.ReactNode;
         numeric?: boolean | undefined;
         sortDirection?: "ascending" | "descending" | undefined;
@@ -117,7 +117,7 @@ declare class DataTable extends React.Component<Props> {
         onPress?: (() => void) | undefined;
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
-    }> & typeof _DataTableTitle), {}>) | (React.FunctionComponent<Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }> & typeof _DataTableTitle), {}>) | (React.FunctionComponent<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         children: React.ReactNode;
         numeric?: boolean | undefined;
         sortDirection?: "ascending" | "descending" | undefined;
@@ -127,7 +127,7 @@ declare class DataTable extends React.Component<Props> {
         theme: import("../../types").Theme;
     }, "style" | "children" | "numberOfLines" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "numeric" | "sortDirection"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native").TouchableWithoutFeedbackProps & {
+    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native-web").TouchableWithoutFeedbackProps & {
         children: React.ReactNode;
         numeric?: boolean | undefined;
         sortDirection?: "ascending" | "descending" | undefined;
@@ -135,7 +135,7 @@ declare class DataTable extends React.Component<Props> {
         onPress?: (() => void) | undefined;
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
-    }, any> & typeof _DataTableTitle) | (React.FunctionComponent<import("react-native").TouchableWithoutFeedbackProps & {
+    }, any> & typeof _DataTableTitle) | (React.FunctionComponent<import("react-native-web").TouchableWithoutFeedbackProps & {
         children: React.ReactNode;
         numeric?: boolean | undefined;
         sortDirection?: "ascending" | "descending" | undefined;
@@ -144,7 +144,7 @@ declare class DataTable extends React.Component<Props> {
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
     }> & typeof _DataTableTitle), {}>);
-    static Row: (React.ComponentClass<Pick<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    static Row: (React.ComponentClass<Pick<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -158,108 +158,7 @@ declare class DataTable extends React.Component<Props> {
         theme: import("../../types").Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: StyleProp<ViewStyle>;
-        theme: import("../../types").Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        children: React.ReactNode;
-        onPress?: (() => void) | undefined;
-        style?: StyleProp<ViewStyle>;
-        theme: import("../../types").Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: StyleProp<ViewStyle>;
-        theme: import("../../types").Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: StyleProp<ViewStyle>;
-        theme: import("../../types").Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        children: React.ReactNode;
-        onPress?: (() => void) | undefined;
-        style?: StyleProp<ViewStyle>;
-        theme: import("../../types").Theme;
-    }, any> & typeof _DataTableRow) | (React.FunctionComponent<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: StyleProp<ViewStyle>;
-        theme: import("../../types").Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: StyleProp<ViewStyle>;
-        theme: import("../../types").Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        children: React.ReactNode;
-        onPress?: (() => void) | undefined;
-        style?: StyleProp<ViewStyle>;
-        theme: import("../../types").Theme;
-    }> & typeof _DataTableRow), {}>) | (React.FunctionComponent<Pick<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
-        borderless?: boolean | undefined;
-        background?: Object | undefined;
-        centered?: boolean | undefined;
-        disabled?: boolean | undefined;
-        onPress?: (() => void | null) | undefined;
-        onLongPress?: (() => void) | undefined;
-        rippleColor?: string | undefined;
-        underlayColor?: string | undefined;
-        children: React.ReactNode;
-        style?: StyleProp<ViewStyle>;
-        theme: import("../../types").Theme;
-    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
-        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -280,7 +179,7 @@ declare class DataTable extends React.Component<Props> {
         theme: import("../../types").Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -294,7 +193,7 @@ declare class DataTable extends React.Component<Props> {
         theme: import("../../types").Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -313,7 +212,7 @@ declare class DataTable extends React.Component<Props> {
         onPress?: (() => void) | undefined;
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
-    }, any> & typeof _DataTableRow) | (React.FunctionComponent<Pick<(Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }, any> & typeof _DataTableRow) | (React.FunctionComponent<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -327,7 +226,108 @@ declare class DataTable extends React.Component<Props> {
         theme: import("../../types").Theme;
     }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }) | React.PropsWithChildren<Pick<import("react-native").TouchableWithoutFeedbackProps & {
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: StyleProp<ViewStyle>;
+        theme: import("../../types").Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
+    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        children: React.ReactNode;
+        onPress?: (() => void) | undefined;
+        style?: StyleProp<ViewStyle>;
+        theme: import("../../types").Theme;
+    }> & typeof _DataTableRow), {}>) | (React.FunctionComponent<Pick<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: StyleProp<ViewStyle>;
+        theme: import("../../types").Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: StyleProp<ViewStyle>;
+        theme: import("../../types").Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
+    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        children: React.ReactNode;
+        onPress?: (() => void) | undefined;
+        style?: StyleProp<ViewStyle>;
+        theme: import("../../types").Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
+    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: StyleProp<ViewStyle>;
+        theme: import("../../types").Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: StyleProp<ViewStyle>;
+        theme: import("../../types").Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
+    }>, "style" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "theme" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        children: React.ReactNode;
+        onPress?: (() => void) | undefined;
+        style?: StyleProp<ViewStyle>;
+        theme: import("../../types").Theme;
+    }, any> & typeof _DataTableRow) | (React.FunctionComponent<Pick<(Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
+        borderless?: boolean | undefined;
+        background?: Object | undefined;
+        centered?: boolean | undefined;
+        disabled?: boolean | undefined;
+        onPress?: (() => void | null) | undefined;
+        onLongPress?: (() => void) | undefined;
+        rippleColor?: string | undefined;
+        underlayColor?: string | undefined;
+        children: React.ReactNode;
+        style?: StyleProp<ViewStyle>;
+        theme: import("../../types").Theme;
+    }, "style" | "children" | "onLayout" | "onPress" | "onLongPress" | "testID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "disabled" | "hitSlop" | "hasTVPreferredFocus" | "tvParallaxProperties" | "delayLongPress" | "delayPressIn" | "delayPressOut" | "onBlur" | "onFocus" | "onPressIn" | "onPressOut" | "pressRetentionOffset" | "borderless" | "background" | "centered" | "rippleColor" | "underlayColor"> & {
+        theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
+    }) | React.PropsWithChildren<Pick<import("react-native-web").TouchableWithoutFeedbackProps & {
         borderless?: boolean | undefined;
         background?: Object | undefined;
         centered?: boolean | undefined;
@@ -348,7 +348,7 @@ declare class DataTable extends React.Component<Props> {
         theme: import("../../types").Theme;
     }> & typeof _DataTableRow), {}>);
     static Cell: typeof DataTableCell;
-    static Pagination: (React.ComponentClass<Pick<import("react-native").ViewProps & {
+    static Pagination: (React.ComponentClass<Pick<import("react-native-web").ViewProps & {
         page: number;
         numberOfPages: number;
         label?: React.ReactNode;
@@ -357,21 +357,21 @@ declare class DataTable extends React.Component<Props> {
         theme: import("../../types").Theme;
     }, "label" | "style" | "onLayout" | "testID" | "nativeID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "hitSlop" | "pointerEvents" | "removeClippedSubviews" | "collapsable" | "needsOffscreenAlphaCompositing" | "renderToHardwareTextureAndroid" | "accessibilityViewIsModal" | "accessibilityActions" | "onAccessibilityAction" | "shouldRasterizeIOS" | "isTVSelectable" | "hasTVPreferredFocus" | "tvParallaxProperties" | "tvParallaxShiftDistanceX" | "tvParallaxShiftDistanceY" | "tvParallaxTiltAngle" | "tvParallaxMagnification" | "onStartShouldSetResponder" | "onMoveShouldSetResponder" | "onResponderEnd" | "onResponderGrant" | "onResponderReject" | "onResponderMove" | "onResponderRelease" | "onResponderStart" | "onResponderTerminationRequest" | "onResponderTerminate" | "onStartShouldSetResponderCapture" | "onMoveShouldSetResponderCapture" | "onTouchStart" | "onTouchMove" | "onTouchEnd" | "onTouchCancel" | "onTouchEndCapture" | "page" | "numberOfPages" | "onPageChange"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native").ViewProps & {
+    }, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native-web").ViewProps & {
         page: number;
         numberOfPages: number;
         label?: React.ReactNode;
         onPageChange: (page: number) => void;
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
-    }, any> & typeof _DataTablePagination) | (React.FunctionComponent<import("react-native").ViewProps & {
+    }, any> & typeof _DataTablePagination) | (React.FunctionComponent<import("react-native-web").ViewProps & {
         page: number;
         numberOfPages: number;
         label?: React.ReactNode;
         onPageChange: (page: number) => void;
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
-    }> & typeof _DataTablePagination), {}>) | (React.FunctionComponent<Pick<import("react-native").ViewProps & {
+    }> & typeof _DataTablePagination), {}>) | (React.FunctionComponent<Pick<import("react-native-web").ViewProps & {
         page: number;
         numberOfPages: number;
         label?: React.ReactNode;
@@ -380,14 +380,14 @@ declare class DataTable extends React.Component<Props> {
         theme: import("../../types").Theme;
     }, "label" | "style" | "onLayout" | "testID" | "nativeID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "hitSlop" | "pointerEvents" | "removeClippedSubviews" | "collapsable" | "needsOffscreenAlphaCompositing" | "renderToHardwareTextureAndroid" | "accessibilityViewIsModal" | "accessibilityActions" | "onAccessibilityAction" | "shouldRasterizeIOS" | "isTVSelectable" | "hasTVPreferredFocus" | "tvParallaxProperties" | "tvParallaxShiftDistanceX" | "tvParallaxShiftDistanceY" | "tvParallaxTiltAngle" | "tvParallaxMagnification" | "onStartShouldSetResponder" | "onMoveShouldSetResponder" | "onResponderEnd" | "onResponderGrant" | "onResponderReject" | "onResponderMove" | "onResponderRelease" | "onResponderStart" | "onResponderTerminationRequest" | "onResponderTerminate" | "onStartShouldSetResponderCapture" | "onMoveShouldSetResponderCapture" | "onTouchStart" | "onTouchMove" | "onTouchEnd" | "onTouchCancel" | "onTouchEndCapture" | "page" | "numberOfPages" | "onPageChange"> & {
         theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../types").Theme> | undefined;
-    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native").ViewProps & {
+    }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<import("react-native-web").ViewProps & {
         page: number;
         numberOfPages: number;
         label?: React.ReactNode;
         onPageChange: (page: number) => void;
         style?: StyleProp<ViewStyle>;
         theme: import("../../types").Theme;
-    }, any> & typeof _DataTablePagination) | (React.FunctionComponent<import("react-native").ViewProps & {
+    }, any> & typeof _DataTablePagination) | (React.FunctionComponent<import("react-native-web").ViewProps & {
         page: number;
         numberOfPages: number;
         label?: React.ReactNode;

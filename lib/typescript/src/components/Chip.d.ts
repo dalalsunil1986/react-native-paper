@@ -102,7 +102,7 @@ declare class Chip extends React.Component<Props, State> {
     private handlePressOut;
     render(): JSX.Element;
 }
-declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").ViewProps & {
+declare const _default: (React.ComponentClass<Pick<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -124,8 +124,8 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     /**
      * Icon to display for the `Chip`. Both icon and avatar cannot be specified.
      */
-    icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-        source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+    icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+        source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
         direction: "rtl" | "ltr" | "auto";
     }> | ((props: {
         size: number;
@@ -180,7 +180,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     testID?: string | undefined;
 }, "style" | "children" | "icon" | "onLayout" | "onPress" | "onLongPress" | "testID" | "nativeID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "selected" | "disabled" | "hitSlop" | "pointerEvents" | "removeClippedSubviews" | "collapsable" | "needsOffscreenAlphaCompositing" | "renderToHardwareTextureAndroid" | "accessibilityViewIsModal" | "accessibilityActions" | "onAccessibilityAction" | "shouldRasterizeIOS" | "isTVSelectable" | "hasTVPreferredFocus" | "tvParallaxProperties" | "tvParallaxShiftDistanceX" | "tvParallaxShiftDistanceY" | "tvParallaxTiltAngle" | "tvParallaxMagnification" | "onStartShouldSetResponder" | "onMoveShouldSetResponder" | "onResponderEnd" | "onResponderGrant" | "onResponderReject" | "onResponderMove" | "onResponderRelease" | "onResponderStart" | "onResponderTerminationRequest" | "onResponderTerminate" | "onStartShouldSetResponderCapture" | "onMoveShouldSetResponderCapture" | "onTouchStart" | "onTouchMove" | "onTouchEnd" | "onTouchCancel" | "onTouchEndCapture" | "mode" | "avatar" | "selectedColor" | "onClose" | "textStyle"> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<import("react-native").ViewProps & {
+}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -202,8 +202,8 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     /**
      * Icon to display for the `Chip`. Both icon and avatar cannot be specified.
      */
-    icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-        source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+    icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+        source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
         direction: "rtl" | "ltr" | "auto";
     }> | ((props: {
         size: number;
@@ -256,7 +256,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
      * Pass down testID from chip props to touchable for Detox tests.
      */
     testID?: string | undefined;
-}, any> & typeof Chip) | (React.FunctionComponent<Pick<import("react-native").ViewProps & {
+}, any> & typeof Chip) | (React.FunctionComponent<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -278,8 +278,8 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     /**
      * Icon to display for the `Chip`. Both icon and avatar cannot be specified.
      */
-    icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-        source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+    icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+        source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
         direction: "rtl" | "ltr" | "auto";
     }> | ((props: {
         size: number;
@@ -332,7 +332,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
      * Pass down testID from chip props to touchable for Detox tests.
      */
     testID?: string | undefined;
-}> & typeof Chip), {}>) | (React.FunctionComponent<Pick<Pick<import("react-native").ViewProps & {
+}> & typeof Chip), {}>) | (React.FunctionComponent<Pick<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -354,8 +354,8 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     /**
      * Icon to display for the `Chip`. Both icon and avatar cannot be specified.
      */
-    icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-        source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+    icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+        source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
         direction: "rtl" | "ltr" | "auto";
     }> | ((props: {
         size: number;
@@ -410,7 +410,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     testID?: string | undefined;
 }, "style" | "children" | "icon" | "onLayout" | "onPress" | "onLongPress" | "testID" | "nativeID" | "accessible" | "accessibilityLabel" | "accessibilityRole" | "accessibilityStates" | "accessibilityHint" | "accessibilityComponentType" | "accessibilityLiveRegion" | "importantForAccessibility" | "accessibilityElementsHidden" | "accessibilityTraits" | "onAccessibilityTap" | "onMagicTap" | "accessibilityIgnoresInvertColors" | "selected" | "disabled" | "hitSlop" | "pointerEvents" | "removeClippedSubviews" | "collapsable" | "needsOffscreenAlphaCompositing" | "renderToHardwareTextureAndroid" | "accessibilityViewIsModal" | "accessibilityActions" | "onAccessibilityAction" | "shouldRasterizeIOS" | "isTVSelectable" | "hasTVPreferredFocus" | "tvParallaxProperties" | "tvParallaxShiftDistanceX" | "tvParallaxShiftDistanceY" | "tvParallaxTiltAngle" | "tvParallaxMagnification" | "onStartShouldSetResponder" | "onMoveShouldSetResponder" | "onResponderEnd" | "onResponderGrant" | "onResponderReject" | "onResponderMove" | "onResponderRelease" | "onResponderStart" | "onResponderTerminationRequest" | "onResponderTerminate" | "onStartShouldSetResponderCapture" | "onMoveShouldSetResponderCapture" | "onTouchStart" | "onTouchMove" | "onTouchEnd" | "onTouchCancel" | "onTouchEndCapture" | "mode" | "avatar" | "selectedColor" | "onClose" | "textStyle"> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<Theme> | undefined;
-}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<import("react-native").ViewProps & {
+}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -432,8 +432,8 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     /**
      * Icon to display for the `Chip`. Both icon and avatar cannot be specified.
      */
-    icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-        source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+    icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+        source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
         direction: "rtl" | "ltr" | "auto";
     }> | ((props: {
         size: number;
@@ -486,7 +486,7 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
      * Pass down testID from chip props to touchable for Detox tests.
      */
     testID?: string | undefined;
-}, any> & typeof Chip) | (React.FunctionComponent<Pick<import("react-native").ViewProps & {
+}, any> & typeof Chip) | (React.FunctionComponent<Pick<import("react-native-web").ViewProps & {
     children: React.ReactNode;
     style?: StyleProp<ViewStyle>;
     theme: Theme;
@@ -508,8 +508,8 @@ declare const _default: (React.ComponentClass<Pick<Pick<import("react-native").V
     /**
      * Icon to display for the `Chip`. Both icon and avatar cannot be specified.
      */
-    icon?: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[] | Readonly<{
-        source: string | number | import("react-native").ImageURISource | import("react-native").ImageURISource[];
+    icon?: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[] | Readonly<{
+        source: string | number | import("react-native-web").ImageURISource | import("react-native-web").ImageURISource[];
         direction: "rtl" | "ltr" | "auto";
     }> | ((props: {
         size: number;
