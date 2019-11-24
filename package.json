@@ -3,8 +3,8 @@
   "version": "3.2.1",
   "description": "Material design for React Native",
   "main": "lib/commonjs/index.js",
-  "module": "lib/module/index.js",
-  "react-native": "lib/module/index.js",
+  "module": "lib/commonjs/index.js",
+  "react-native": "lib/commonjs/index.js",
   "types": "lib/typescript/src/index.d.ts",
   "files": [
     "lib",
@@ -99,8 +99,6 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn typescript && yarn test"
     }
   },
   "jest": {
