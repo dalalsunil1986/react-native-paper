@@ -19,9 +19,9 @@ declare class DrawerItems extends React.Component<Props, State> {
     _setDrawerItem: (index: number) => void;
     render(): JSX.Element;
 }
-declare const _default: (import("react").ComponentClass<Pick<Props, "toggleTheme" | "toggleRTL" | "isRTL" | "isDarkTheme"> & {
+declare const _default: (React.ComponentClass<Pick<Props, "toggleTheme" | "toggleRTL" | "isRTL" | "isDarkTheme"> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../src/types").Theme> | undefined;
-}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(import("react").ComponentClass<Props, any> & typeof DrawerItems) | (import("react").FunctionComponent<Props> & typeof DrawerItems), {}>) | (import("react").FunctionComponent<Pick<Props, "toggleTheme" | "toggleRTL" | "isRTL" | "isDarkTheme"> & {
+}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Props, any> & typeof DrawerItems) | (React.FunctionComponent<Props> & typeof DrawerItems), {}>) | (React.FunctionComponent<Pick<Props, "toggleTheme" | "toggleRTL" | "isRTL" | "isDarkTheme"> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../src/types").Theme> | undefined;
-}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(import("react").ComponentClass<Props, any> & typeof DrawerItems) | (import("react").FunctionComponent<Props> & typeof DrawerItems), {}>);
+}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Props, any> & typeof DrawerItems) | (React.FunctionComponent<Props> & typeof DrawerItems), {}>);
 export default _default;

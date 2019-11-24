@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, ViewStyle, StyleProp } from 'react-native';
+import { View, ViewStyle, StyleProp } from 'react-native-web';
 import { Theme } from '../../types';
 declare type Props = React.ComponentProps<typeof View> & {
     /**

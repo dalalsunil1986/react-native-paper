@@ -1,4 +1,4 @@
-import { TextInput as NativeTextInput, Animated, TextStyle } from 'react-native';
+import { TextInput as NativeTextInput, Animated, TextStyle } from 'react-native-web';
 import { TextInputProps } from './TextInput';
 import { $Omit } from './../../types';
 export declare type RenderProps = {

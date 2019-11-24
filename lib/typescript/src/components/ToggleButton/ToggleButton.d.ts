@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, ViewStyle, GestureResponderEvent } from 'react-native';
+import { StyleProp, ViewStyle, GestureResponderEvent } from 'react-native-web';
 import ToggleButtonGroup from './ToggleButtonGroup';
 import ToggleButtonRow from './ToggleButtonRow';
 import { IconSource } from '../Icon';

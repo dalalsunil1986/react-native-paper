@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text, TextStyle, StyleProp } from 'react-native';
+import { Text, TextStyle, StyleProp } from 'react-native-web';
 declare type Props = React.ComponentProps<typeof Text> & {
     style?: StyleProp<TextStyle>;
     children: React.ReactNode;

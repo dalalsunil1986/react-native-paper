@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, Animated, LayoutRectangle, ViewStyle } from 'react-native';
+import { StyleProp, Animated, LayoutRectangle, ViewStyle } from 'react-native-web';
 import { Theme, $Omit } from '../../types';
 import { MenuItem as _MenuItem } from './MenuItem';
 declare type Props = {
@@ -60,7 +60,7 @@ declare type State = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { View } from 'react-native';
+ * import { View } from 'react-native-web';
  * import { Button, Paragraph, Menu, Divider, Provider } from 'react-native-paper';
  *
  * export default class MyComponent extends React.Component {

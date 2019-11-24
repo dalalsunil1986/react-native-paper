@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { TouchableWithoutFeedback, ViewStyle, StyleProp } from 'react-native';
+import { TouchableWithoutFeedback, ViewStyle, StyleProp } from 'react-native-web';
 import { Theme } from '../../types';
 declare type Props = React.ComponentProps<typeof TouchableWithoutFeedback> & {
     /**
@@ -53,7 +53,7 @@ declare type Props = React.ComponentProps<typeof TouchableWithoutFeedback> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { View } from 'react-native';
+ * import { View } from 'react-native-web';
  * import { Text, TouchableRipple } from 'react-native-paper';
  *
  * const MyComponent = () => (

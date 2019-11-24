@@ -1,4 +1,4 @@
-import { Animated } from 'react-native';
+import { Animated } from 'react-native-web';
 declare type PaddingProps = {
     height: number | null;
     labelHalfHeight: number;

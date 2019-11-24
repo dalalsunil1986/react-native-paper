@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Animated } from 'react-native';
+import { Animated } from 'react-native-web';
 import { IconSource } from './Icon';
 import { Theme } from '../types';
 declare type Props = {

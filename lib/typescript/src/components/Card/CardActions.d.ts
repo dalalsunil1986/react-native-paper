@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, View, ViewStyle } from 'react-native';
+import { StyleProp, View, ViewStyle } from 'react-native-web';
 declare type Props = React.ComponentProps<typeof View> & {
     /**
      * Items inside the `CardActions`.

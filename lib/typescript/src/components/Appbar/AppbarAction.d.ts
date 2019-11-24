@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, ViewStyle } from 'react-native';
+import { StyleProp, ViewStyle } from 'react-native-web';
 import IconButton from '../IconButton';
 import { IconSource } from '../Icon';
 declare type Props = React.ComponentProps<typeof IconButton> & {

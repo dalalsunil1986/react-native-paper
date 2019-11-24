@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { TextProps } from 'react-native';
+import { TextProps } from 'react-native-web';
 declare type Props = TextProps & {
     children: React.ReactNode;
 };

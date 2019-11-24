@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { GestureResponderEvent } from 'react-native';
+import { GestureResponderEvent } from 'react-native-web';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { Theme } from 'react-native-paper';
 declare type State = {
@@ -35,9 +35,9 @@ declare class MenuExample extends React.Component<Props, State> {
     _closeMenu3: () => void;
     render(): JSX.Element;
 }
-declare const _default: (import("react").ComponentClass<Pick<Props, "navigation"> & {
+declare const _default: (React.ComponentClass<Pick<Props, "navigation"> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../../src/types").Theme> | undefined;
-}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(import("react").ComponentClass<Props, any> & typeof MenuExample) | (import("react").FunctionComponent<Props> & typeof MenuExample), {}>) | (import("react").FunctionComponent<Pick<Props, "navigation"> & {
+}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Props, any> & typeof MenuExample) | (React.FunctionComponent<Props> & typeof MenuExample), {}>) | (React.FunctionComponent<Pick<Props, "navigation"> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../../src/types").Theme> | undefined;
-}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(import("react").ComponentClass<Props, any> & typeof MenuExample) | (import("react").FunctionComponent<Props> & typeof MenuExample), {}>);
+}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Props, any> & typeof MenuExample) | (React.FunctionComponent<Props> & typeof MenuExample), {}>);
 export default _default;

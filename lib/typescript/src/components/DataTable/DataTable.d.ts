@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, View, ViewStyle } from 'react-native';
+import { StyleProp, View, ViewStyle } from 'react-native-web';
 import DataTableCell from './DataTableCell';
 import { DataTableHeader as _DataTableHeader } from './DataTableHeader';
 import { DataTableTitle as _DataTableTitle } from './DataTableTitle';

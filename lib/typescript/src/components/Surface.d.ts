@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, StyleProp, ViewStyle } from 'react-native';
+import { View, StyleProp, ViewStyle } from 'react-native-web';
 import { Theme } from '../types';
 declare type Props = React.ComponentProps<typeof View> & {
     /**
@@ -33,7 +33,7 @@ declare type Props = React.ComponentProps<typeof View> & {
  * ```js
  * import * as React from 'react';
  * import { Surface, Text } from 'react-native-paper';
- * import { StyleSheet } from 'react-native';
+ * import { StyleSheet } from 'react-native-web';
  *
  * const MyComponent = () => (
  *   <Surface style={styles.surface}>

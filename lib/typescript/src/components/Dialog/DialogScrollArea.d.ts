@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, ViewStyle, StyleProp } from 'react-native';
+import { View, ViewStyle, StyleProp } from 'react-native-web';
 declare type Props = React.ComponentProps<typeof View> & {
     /**
      * Content of the `DialogScrollArea`.
@@ -14,7 +14,7 @@ declare type Props = React.ComponentProps<typeof View> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { ScrollView } from 'react-native';
+ * import { ScrollView } from 'react-native-web';
  * import { Dialog, Portal, Text } from 'react-native-paper';
  *
  * export default class MyComponent extends React.Component {

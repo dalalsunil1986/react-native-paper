@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ViewStyle, StyleProp, GestureResponderEvent } from 'react-native';
+import { ViewStyle, StyleProp, GestureResponderEvent } from 'react-native-web';
 import TouchableRipple from './TouchableRipple';
 import { IconSource } from './Icon';
 import { Theme, $RemoveChildren } from '../types';

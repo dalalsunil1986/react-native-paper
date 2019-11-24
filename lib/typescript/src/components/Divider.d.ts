@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, ViewStyle, StyleProp } from 'react-native';
+import { View, ViewStyle, StyleProp } from 'react-native-web';
 import { Theme, $RemoveChildren } from '../types';
 declare type Props = $RemoveChildren<typeof View> & {
     /**
@@ -18,7 +18,7 @@ declare type Props = $RemoveChildren<typeof View> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { View } from 'react-native';
+ * import { View } from 'react-native-web';
  * import { Divider, Text } from 'react-native-paper';
  *
  * const MyComponent = () => (

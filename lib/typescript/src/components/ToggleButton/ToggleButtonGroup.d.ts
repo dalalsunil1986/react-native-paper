@@ -25,7 +25,7 @@ export declare const ToggleButtonGroupContext: React.Context<ToggleButtonContext
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { View } from 'react-native';
+ * import { View } from 'react-native-web';
  * import { ToggleButton } from 'react-native-paper';
  *
  * export default class MyComponent extends React.Component {

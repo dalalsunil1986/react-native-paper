@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, ViewStyle } from 'react-native';
+import { StyleProp, ViewStyle } from 'react-native-web';
 import TouchableRipple from '../TouchableRipple';
 import { Theme, $RemoveChildren } from '../../types';
 declare type Props = $RemoveChildren<typeof TouchableRipple> & {

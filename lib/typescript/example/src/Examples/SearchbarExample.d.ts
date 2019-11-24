@@ -18,9 +18,9 @@ declare class SearchExample extends React.Component<Props, State> {
     };
     render(): JSX.Element;
 }
-declare const _default: (import("react").ComponentClass<Pick<Props, "navigation"> & {
+declare const _default: (React.ComponentClass<Pick<Props, "navigation"> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../../src/types").Theme> | undefined;
-}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(import("react").ComponentClass<Props, any> & typeof SearchExample) | (import("react").FunctionComponent<Props> & typeof SearchExample), {}>) | (import("react").FunctionComponent<Pick<Props, "navigation"> & {
+}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Props, any> & typeof SearchExample) | (React.FunctionComponent<Props> & typeof SearchExample), {}>) | (React.FunctionComponent<Pick<Props, "navigation"> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../../src/types").Theme> | undefined;
-}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(import("react").ComponentClass<Props, any> & typeof SearchExample) | (import("react").FunctionComponent<Props> & typeof SearchExample), {}>);
+}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Props, any> & typeof SearchExample) | (React.FunctionComponent<Props> & typeof SearchExample), {}>);
 export default _default;

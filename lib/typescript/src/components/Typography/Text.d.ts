@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text as NativeText, TextStyle, StyleProp } from 'react-native';
+import { Text as NativeText, TextStyle, StyleProp } from 'react-native-web';
 import { Theme } from '../../types';
 declare type Props = React.ComponentProps<typeof NativeText> & {
     style?: StyleProp<TextStyle>;

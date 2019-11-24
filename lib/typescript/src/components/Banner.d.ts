@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ViewStyle, StyleProp, Animated } from 'react-native';
+import { ViewStyle, StyleProp, Animated } from 'react-native-web';
 import Surface from './Surface';
 import { IconSource } from './Icon';
 import { Theme, $RemoveChildren } from '../types';
@@ -57,7 +57,7 @@ declare type State = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Image } from 'react-native';
+ * import { Image } from 'react-native-web';
  * import { Banner } from 'react-native-paper';
  *
  * export default class MyComponent extends React.Component {
@@ -79,7 +79,7 @@ declare type State = {
  *             onPress: () => this.setState({ visible: false }),
  *           },
  *         ]}
- *         image={({ size }) =>
+ *         icon={({ size }) =>
  *           <Image
  *             source={{ uri: 'https://avatars3.githubusercontent.com/u/17571969?s=400&v=4' }}
  *             style={{

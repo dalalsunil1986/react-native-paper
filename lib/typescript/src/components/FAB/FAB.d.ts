@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Animated, ViewStyle, StyleProp } from 'react-native';
+import { Animated, ViewStyle, StyleProp } from 'react-native-web';
 import { FABGroup as _FABGroup } from './FABGroup';
 import Surface from '../Surface';
 import { Theme, $RemoveChildren } from '../../types';
@@ -62,7 +62,7 @@ declare type State = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { StyleSheet } from 'react-native';
+ * import { StyleSheet } from 'react-native-web';
  * import { FAB } from 'react-native-paper';
  *
  * const MyComponent = () => (

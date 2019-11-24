@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Animated, StyleProp, ViewStyle } from 'react-native';
+import { Animated, StyleProp, ViewStyle } from 'react-native-web';
 import { Theme } from '../types';
 declare type Props = {
     /**
@@ -48,7 +48,7 @@ declare type State = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { View, StyleSheet } from 'react-native';
+ * import { View, StyleSheet } from 'react-native-web';
  * import { Button, Snackbar } from 'react-native-paper';
  *
  * export default class MyComponent extends React.Component {

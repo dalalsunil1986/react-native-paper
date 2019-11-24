@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, TextInput, ViewStyle, TextStyle } from 'react-native';
+import { StyleProp, TextInput, ViewStyle, TextStyle } from 'react-native-web';
 import { Theme } from '../types';
 import { IconSource } from './Icon';
 declare type Props = React.ComponentProps<typeof TextInput> & {

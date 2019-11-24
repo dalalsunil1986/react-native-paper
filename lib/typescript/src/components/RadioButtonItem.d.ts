@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, ViewStyle } from 'react-native';
+import { StyleProp, ViewStyle } from 'react-native-web';
 import { RadioButtonContextType } from './RadioButtonGroup';
 declare type Props = {
     /**
@@ -29,7 +29,7 @@ declare type Props = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { View } from 'react-native';
+ * import { View } from 'react-native-web';
  * import { RadioButton, Text } from 'react-native-paper';
  *
  * export default class MyComponent extends React.Component {

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, ViewStyle } from 'react-native';
+import { StyleProp, ViewStyle } from 'react-native-web';
 import { IconSource } from '../Icon';
 import { Theme } from '../../types';
 declare type Props = {

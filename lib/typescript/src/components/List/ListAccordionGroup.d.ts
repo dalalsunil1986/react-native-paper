@@ -26,7 +26,7 @@ export declare const ListAccordionGroupContext: React.Context<ListAccordionGroup
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { View, Text } from 'react-native';
+ * import { View, Text } from 'react-native-web';
  * import { List } from 'react-native-paper';
  *
  * function MyComponent() {

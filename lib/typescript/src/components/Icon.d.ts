@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ImageSourcePropType } from 'react-native';
+import { ImageSourcePropType } from 'react-native-web';
 import { Theme } from '../types';
 declare type IconSourceBase = string | ImageSourcePropType;
 export declare type IconSource = IconSourceBase | Readonly<{

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Animated, StyleProp, ViewStyle } from 'react-native';
+import { Animated, StyleProp, ViewStyle } from 'react-native-web';
 import { IconSource } from './Icon';
 import Surface from './Surface';
 import { Theme } from '../types';

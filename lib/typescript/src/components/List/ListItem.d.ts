@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, TextStyle, ViewStyle } from 'react-native';
+import { StyleProp, TextStyle, ViewStyle } from 'react-native-web';
 import TouchableRipple from '../TouchableRipple';
 import { Theme, $RemoveChildren, EllipsizeProp } from '../../types';
 declare type Description = React.ReactNode | ((props: {

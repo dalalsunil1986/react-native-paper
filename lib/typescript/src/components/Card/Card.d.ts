@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, Animated, ViewStyle } from 'react-native';
+import { StyleProp, Animated, ViewStyle } from 'react-native-web';
 import CardContent from './CardContent';
 import CardActions from './CardActions';
 import { CardCover as _CardCover } from './CardCover';

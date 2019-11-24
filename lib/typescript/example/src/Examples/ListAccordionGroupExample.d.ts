@@ -11,12 +11,12 @@ declare class ListAccordionGroupExample extends React.Component<Props, State> {
     state: {
         expandedId: undefined;
     };
-    _onAccordionPress: (expandedId: import("react").ReactText) => void;
+    _onAccordionPress: (expandedId: React.ReactText) => void;
     render(): JSX.Element;
 }
-declare const _default: (import("react").ComponentClass<Pick<Props, never> & {
+declare const _default: (React.ComponentClass<Pick<Props, never> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../../src/types").Theme> | undefined;
-}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(import("react").ComponentClass<Props, any> & typeof ListAccordionGroupExample) | (import("react").FunctionComponent<Props> & typeof ListAccordionGroupExample), {}>) | (import("react").FunctionComponent<Pick<Props, never> & {
+}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Props, any> & typeof ListAccordionGroupExample) | (React.FunctionComponent<Props> & typeof ListAccordionGroupExample), {}>) | (React.FunctionComponent<Pick<Props, never> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../../src/types").Theme> | undefined;
-}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(import("react").ComponentClass<Props, any> & typeof ListAccordionGroupExample) | (import("react").FunctionComponent<Props> & typeof ListAccordionGroupExample), {}>);
+}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Props, any> & typeof ListAccordionGroupExample) | (React.FunctionComponent<Props> & typeof ListAccordionGroupExample), {}>);
 export default _default;

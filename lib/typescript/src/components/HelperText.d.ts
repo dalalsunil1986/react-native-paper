@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Animated, StyleProp, TextStyle } from 'react-native';
+import { Animated, StyleProp, TextStyle } from 'react-native-web';
 import { Theme, $Omit } from '../types';
 declare type Props = $Omit<$Omit<React.ComponentProps<typeof Animated.Text>, 'padding'>, 'type'> & {
     /**
@@ -42,7 +42,7 @@ declare type State = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { View } from 'react-native';
+ * import { View } from 'react-native-web';
  * import { HelperText, TextInput } from 'react-native-paper';
  *
  * export default class MyComponent extends React.Component {

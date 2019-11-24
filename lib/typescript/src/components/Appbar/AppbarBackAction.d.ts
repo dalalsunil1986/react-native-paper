@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, ViewStyle } from 'react-native';
+import { StyleProp, ViewStyle } from 'react-native-web';
 import { $Omit } from './../../types';
 import AppbarAction from './AppbarAction';
 declare type Props = $Omit<React.ComponentProps<typeof AppbarAction> & {

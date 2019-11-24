@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, ViewStyle } from 'react-native';
+import { StyleProp, ViewStyle } from 'react-native-web';
 import Appbar from './Appbar';
 import { Theme } from '../../types';
 declare type Props = React.ComponentProps<typeof Appbar> & {

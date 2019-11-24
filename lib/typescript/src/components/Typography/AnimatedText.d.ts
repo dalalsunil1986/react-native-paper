@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Animated, TextStyle, StyleProp } from 'react-native';
+import { Animated, TextStyle, StyleProp } from 'react-native-web';
 import { Theme } from '../../types';
 declare type Props = React.ComponentProps<typeof Animated.Text> & {
     style?: StyleProp<TextStyle>;

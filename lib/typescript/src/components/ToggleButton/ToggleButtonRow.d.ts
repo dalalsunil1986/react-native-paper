@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, ViewStyle } from 'react-native';
+import { StyleProp, ViewStyle } from 'react-native-web';
 declare type Props = {
     /**
      * Function to execute on selection change.
@@ -21,7 +21,7 @@ declare type Props = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { View } from 'react-native';
+ * import { View } from 'react-native-web';
  * import { ToggleButton } from 'react-native-paper';
  *
  * export default class MyComponent extends React.Component {

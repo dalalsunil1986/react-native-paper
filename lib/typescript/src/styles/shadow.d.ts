@@ -1,4 +1,4 @@
-import { Animated } from 'react-native';
+import { Animated } from 'react-native-web';
 export default function shadow(elevation?: number | Animated.Value): {
     shadowColor: string;
     shadowOffset: {

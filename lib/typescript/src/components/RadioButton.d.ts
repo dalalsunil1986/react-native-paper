@@ -1,6 +1,7 @@
 import * as React from 'react';
 import RadioButtonGroup, { RadioButtonContextType } from './RadioButtonGroup';
 import { RadioButtonAndroid as _RadioButtonAndroid } from './RadioButtonAndroid';
+import RadioButtonItem from './RadioButtonItem';
 import { RadioButtonIOS as _RadioButtonIOS } from './RadioButtonIOS';
 import { Theme } from '../types';
 declare type Props = {
@@ -58,7 +59,7 @@ declare type Props = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { View } from 'react-native';
+ * import { View } from 'react-native-web';
  * import { RadioButton } from 'react-native-paper';
  *
  * export default class MyComponent extends React.Component {
@@ -525,6 +526,7 @@ declare class RadioButton extends React.Component<Props> {
         color?: string | undefined;
         theme: Theme;
     }> & typeof _RadioButtonIOS), {}>);
+    static Item: typeof RadioButtonItem;
     handlePress: (context: RadioButtonContextType) => void;
     isChecked: (context: RadioButtonContextType) => "checked" | "unchecked";
     render(): JSX.Element;

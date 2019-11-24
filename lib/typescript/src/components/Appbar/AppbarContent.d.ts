@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, TextStyle, View, ViewStyle } from 'react-native';
+import { StyleProp, TextStyle, View, ViewStyle } from 'react-native-web';
 import { Theme, $RemoveChildren } from '../../types';
 declare type Props = $RemoveChildren<typeof View> & {
     /**

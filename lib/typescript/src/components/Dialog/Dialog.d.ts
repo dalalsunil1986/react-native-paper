@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleProp, ViewStyle } from 'react-native';
+import { StyleProp, ViewStyle } from 'react-native-web';
 import DialogContent from './DialogContent';
 import DialogActions from './DialogActions';
 import { DialogTitle as _DialogTitle } from './DialogTitle';
@@ -40,7 +40,7 @@ declare type Props = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { View } from 'react-native';
+ * import { View } from 'react-native-web';
  * import { Button, Paragraph, Dialog, Portal } from 'react-native-paper';
  *
  * export default class MyComponent extends React.Component {

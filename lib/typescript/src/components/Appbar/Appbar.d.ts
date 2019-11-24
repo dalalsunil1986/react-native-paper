@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, ViewStyle, StyleProp } from 'react-native';
+import { View, ViewStyle, StyleProp } from 'react-native-web';
 import { AppbarContent as _AppbarContent } from './AppbarContent';
 import AppbarAction from './AppbarAction';
 import AppbarBackAction from './AppbarBackAction';
@@ -37,7 +37,7 @@ export declare const DEFAULT_APPBAR_HEIGHT = 56;
  * ```js
  * import * as React from 'react';
  * import { Appbar } from 'react-native-paper';
- * import { StyleSheet } from 'react-native';
+ * import { StyleSheet } from 'react-native-web';
  *
  * export default class MyComponent extends React.Component {
  *   render() {

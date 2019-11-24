@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Animated, TextInput as NativeTextInput } from 'react-native';
+import { Animated, TextInput as NativeTextInput } from 'react-native-web';
 import { RenderProps, State } from './types';
 import { Theme } from '../../types';
 export declare type TextInputProps = React.ComponentPropsWithRef<typeof NativeTextInput> & {
