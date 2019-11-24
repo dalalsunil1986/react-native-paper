@@ -13,9 +13,9 @@ declare class RadioButtonGroupExample extends React.Component<Props, State> {
     };
     render(): JSX.Element;
 }
-declare const _default: (React.ComponentClass<Pick<Props, never> & {
+declare const _default: (import("react").ComponentClass<Pick<Props, never> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../../src/types").Theme> | undefined;
-}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Props, any> & typeof RadioButtonGroupExample) | (React.FunctionComponent<Props> & typeof RadioButtonGroupExample), {}>) | (React.FunctionComponent<Pick<Props, never> & {
+}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(import("react").ComponentClass<Props, any> & typeof RadioButtonGroupExample) | (import("react").FunctionComponent<Props> & typeof RadioButtonGroupExample), {}>) | (import("react").FunctionComponent<Pick<Props, never> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../../src/types").Theme> | undefined;
-}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Props, any> & typeof RadioButtonGroupExample) | (React.FunctionComponent<Props> & typeof RadioButtonGroupExample), {}>);
+}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(import("react").ComponentClass<Props, any> & typeof RadioButtonGroupExample) | (import("react").FunctionComponent<Props> & typeof RadioButtonGroupExample), {}>);
 export default _default;

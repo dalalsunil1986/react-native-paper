@@ -79,7 +79,7 @@ declare type State = {
  *             onPress: () => this.setState({ visible: false }),
  *           },
  *         ]}
- *         icon={({ size }) =>
+ *         image={({ size }) =>
  *           <Image
  *             source={{ uri: 'https://avatars3.githubusercontent.com/u/17571969?s=400&v=4' }}
  *             style={{

@@ -42,9 +42,9 @@ declare class TextInputExample extends React.Component<Props, State> {
     _isUsernameValid: (name: string) => boolean;
     render(): JSX.Element;
 }
-declare const _default: (React.ComponentClass<Pick<Props, never> & {
+declare const _default: (import("react").ComponentClass<Pick<Props, never> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../../src/types").Theme> | undefined;
-}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Props, any> & typeof TextInputExample) | (React.FunctionComponent<Props> & typeof TextInputExample), {}>) | (React.FunctionComponent<Pick<Props, never> & {
+}, any> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(import("react").ComponentClass<Props, any> & typeof TextInputExample) | (import("react").FunctionComponent<Props> & typeof TextInputExample), {}>) | (import("react").FunctionComponent<Pick<Props, never> & {
     theme?: import("@callstack/react-theme-provider").$DeepPartial<import("../../../src/types").Theme> | undefined;
-}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(React.ComponentClass<Props, any> & typeof TextInputExample) | (React.FunctionComponent<Props> & typeof TextInputExample), {}>);
+}> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<(import("react").ComponentClass<Props, any> & typeof TextInputExample) | (import("react").FunctionComponent<Props> & typeof TextInputExample), {}>);
 export default _default;
